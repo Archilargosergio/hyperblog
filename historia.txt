@@ -1,2 +1,3 @@
 Este Archivo no se de que trata 
 Esto es pura magia
+Creo saber co,o usar git add . git commit -m "" git clone url git pull and git push
