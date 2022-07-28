@@ -1,4 +1,3 @@
 Este Archivo no se de que trata 
 Esto es pura magia
-Creo saber como usar git add . git commit -m "" git clone url git pull and git push
-Este si seria el achivo en la master branch para ser enviado a repositorio remoto
+Este seria el archivo en la branch experimental
