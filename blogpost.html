@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola mundo</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-        }
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+     }
 .main-container {
     display: grid;
     place-items: center;
@@ -18,18 +18,21 @@
 }
 .second-container{
     display: grid;
-    grid-template-columns: auto 1fr ;
-    width: 100%;   
+    grid-template-rows: auto 1fr auto ;
+    width: 300px; 
+    background-color: gray;
+    border: none;
+    border-radius: 50px;  
 }
-
 .head-container{
     display: flexbox;
-    flex-direction: column;
+    flex-direction: row;
+    place-content: center;
 }
 .head-container p{
     color: black;
     background-color: yellow;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
@@ -41,14 +44,40 @@
 }
 .primary-button{
     border-radius: 16px;
-    width: 100%;
+    width: 50%;
     height: 50px;
     border: none;
     background-color: yellowgreen;
-    color: teal;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 10px 70px;
 }
 .fuckyeah-button{
     margin: 12px;
+}
+.img-container{
+    display: flexbox;
+    flex-direction: row;
+    margin: 16px;
+    align-items: center;
+}
+.img-container figure{
+    place-items: center;
+    margin: 10px 55px;
+}
+.img-container figure img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.img-container p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
 }
     </style>
 </head>
@@ -60,11 +89,11 @@
     
                   <h1 class="tittle">HOLA MUNDO</h1>
                   <p>SOY TODO UN PRO</p>
-                  <input class="prymary-button button-fuckyeah" type="button" value="FUCK YEAH!">
+                  <input class="primary-button button-fuckyeah" type="button" value="FUCK YEAH!">
                
                 </div>
                    <div class="img-container">
-                     <figure class="image-chart"> <img src="https://images.pexels.com/photos/2248713/pexels-photo-2248713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
+                     <figure> <img src="https://images.pexels.com/photos/2248713/pexels-photo-2248713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
                      <p>We must to see the future with our owns eyes, just to attacking, do it better solo</p>
    
                     </div>
