@@ -5,10 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola mundo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+.main-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.second-container{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    width: 100%;   
+}
+
+.head-container{
+    display: flexbox;
+    flex-direction: column;
+}
+.head-container p{
+    color: black;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.tittle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+.primary-button{
+    border-radius: 16px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: yellowgreen;
+    color: teal;
+}
+.fuckyeah-button{
+    margin: 12px;
+}
+    </style>
 </head>
 <body>
-    <h1>HOLA MUNDO</h1>
-    <p>SOY TODO UN PRO</p>
-    <p>Fuck Yeah</p>
+  <div class="main-container">
+      <div class="second-container">
+
+              <div class="head-container">
+    
+                  <h1 class="tittle">HOLA MUNDO</h1>
+                  <p>SOY TODO UN PRO</p>
+                  <input class="prymary-button button-fuckyeah" type="button" value="FUCK YEAH!">
+               
+                </div>
+                   <div class="img-container">
+                     <figure class="image-chart"> <img src="https://images.pexels.com/photos/2248713/pexels-photo-2248713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
+                     <p>We must to see the future with our owns eyes, just to attacking, do it better solo</p>
+   
+                    </div>
+
+        </div>
+    </div>
 </body>
 </html>
